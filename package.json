@@ -1,0 +1,16 @@
+{
+  "name": "ai-radio-app",
+  "version": "1.0.0",
+  "description": "AI个人电台 - 把你的歌单蒸馏成AI驱动的音乐电台",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "node-cache": "^5.1.2"
+  }
+}
